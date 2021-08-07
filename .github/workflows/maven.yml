@@ -22,4 +22,5 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn -B package --file student-jpa/pom.xml
+      # run: mvn -B package --file student-jpa/pom.xml
+      run: mvn -B compile --file student-jpa/pom.xml
